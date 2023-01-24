@@ -1,13 +1,12 @@
 <template>
-  <div flex justify-center>
-    working
-  </div>
+  <PhotoList />
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import PhotoList from '~/components/PhotoList.vue'
 
 export default Vue.extend({
-  name: 'IndexPage'
+  components: { PhotoList },
 })
 </script>
