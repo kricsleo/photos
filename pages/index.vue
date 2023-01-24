@@ -10,3 +10,9 @@ export default Vue.extend({
   components: { PhotoList },
 })
 </script>
+
+<style>
+body {
+  overflow: scroll;
+}
+</style>

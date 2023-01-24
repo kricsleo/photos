@@ -1,5 +1,5 @@
 <template>
-  <Waterfall>
+  <Waterfall :cols="5">
     <PhotoCard v-for="photo in photos" :key="photo.id" :photo="photo" />
   </Waterfall>
 </template>

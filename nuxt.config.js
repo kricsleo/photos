@@ -44,6 +44,7 @@ export default {
     // presets
     uno: true, // enabled `@unocss/preset-uno`
     attributify: true, // enabled `@unocss/preset-attributify`,
+    preflight: true
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
