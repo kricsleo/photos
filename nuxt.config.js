@@ -38,7 +38,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@unocss/nuxt'
   ],
+  unocss: {
+    // presets
+    uno: true, // enabled `@unocss/preset-uno`
+    attributify: true, // enabled `@unocss/preset-attributify`,
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

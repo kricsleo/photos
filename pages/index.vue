@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <div flex justify-center>
+    working
+  </div>
 </template>
 
 <script lang="ts">
