@@ -14,5 +14,6 @@ export default Vue.extend({
 <style>
 body {
   overflow: scroll;
+  background-color: #18191e;
 }
 </style>

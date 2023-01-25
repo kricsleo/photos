@@ -1,6 +1,6 @@
 <template>
-  <Waterfall :cols="5">
-    <PhotoCard v-for="photo in photos" :key="photo.id" :photo="photo" />
+  <Waterfall :cols="5" class="waterfall" laneClass="space-y-2">
+    <PhotoCard v-for="photo in photos" :key="photo.id" :photo="photo" class="" />
   </Waterfall>
 </template>
 
@@ -29,6 +29,8 @@ export default Vue.extend({
 });
 </script>
 
-<style scoped lang="scss">
-
+<style>
+.waterfall {
+  gap: 0.5rem;
+}
 </style>

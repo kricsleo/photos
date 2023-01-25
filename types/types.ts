@@ -2,6 +2,8 @@ export interface Photo {
   id: string
   width: number
   height: number
+  likes: number
+  alt_description: string
   urls: {
     regular: string
   }
