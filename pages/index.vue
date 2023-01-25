@@ -27,7 +27,6 @@ body {
   margin-left: calc(100vw - 100%);
   padding: 0 10vw;
 }
-
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
