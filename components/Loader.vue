@@ -17,7 +17,7 @@
     },
     data() {
       return {
-        loading: false
+        loading: false,
       }
     },
     mounted() {
@@ -28,7 +28,6 @@
     },
     methods: {
       async active() {
-        console.log('active')
         if(this.loading) {
           return
         }
