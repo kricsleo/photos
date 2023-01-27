@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div text-gray text-30 font-italic font-mono text-center>
+    <div text-gray text-20 font-italic font-mono text-center>
       What's New
     </div>
     <p text-right text-xs text-gray font-italic leading-8>
@@ -22,10 +22,11 @@ export default Vue.extend({
 
 <style>
 body {
-  overflow-Y: scroll;
-  background-color: #18191e;
+  min-height: 100vh;
   margin-left: calc(100vw - 100%);
   padding: 0 10vw;
+  overflow-Y: scroll;
+  background-color: #18191e;
 }
 ::-webkit-scrollbar {
   width: 10px;
