@@ -1,7 +1,7 @@
 <template>
   <div>
     <Waterfall :cols="5" class="waterfall" laneClass="space-y-2">
-      <PhotoCard v-for="photo in photos" :key="photo.id" :photo="photo" class="" />
+      <PhotoCard v-for="photo in photos" :key="photo.id" :photo="photo" />
     </Waterfall>
     <Loader :fetcher="fetcher" />
   </div>
