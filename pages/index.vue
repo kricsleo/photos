@@ -5,6 +5,8 @@
     </div>
     <p text-right text-xs text-gray font-italic leading-8>
       Powered by 
+      <a href="https://github.com/kricsleo/waterfall-flow" target="_blank" underline>waterfall-flow</a>
+      and
       <a href="https://unsplash.com" target="_blank" underline>unsplash.com</a>
     </p>
     <PhotoList />
